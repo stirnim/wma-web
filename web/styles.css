@@ -1,0 +1,103 @@
+body {
+    font-family: 'ABCFavorit', Tahoma, Verdana, Arial;
+    font-weight: normal;
+    font-size: 18px;
+    color: #555;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+}
+
+.text-left {
+    text-align: left;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.image-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 20px auto;
+    max-width: 500px;
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.row img {
+    max-width: 180px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.row span {
+    text-align: center !important;
+    flex: 1;
+    font-weight: normal;
+}
+
+.row:hover span {
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+a {
+    color: #555;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer a {
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    .row {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .row img {
+        margin: 0 0 10px 0;
+    }
+
+    .row span {
+        text-align: left;
+    }
+}
