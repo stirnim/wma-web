@@ -38,6 +38,11 @@ p {
     justify-content: space-evenly;
 }
 
+.image-row img {
+    width: 180px;
+    height: auto;
+}
+
 .row {
     display: flex;
     align-items: center;
@@ -87,7 +92,7 @@ a:hover {
     font-size: 14px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 850px) {
     .row {
         flex-direction: column;
         text-align: left;
@@ -99,5 +104,10 @@ a:hover {
 
     .row span {
         text-align: left;
+    }
+
+    .image-row img {
+        width: 180px;
+        height: auto;
     }
 }
