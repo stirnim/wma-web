@@ -39,7 +39,7 @@ p {
 }
 
 .image-row img {
-    width: 180px;
+    width: 200px;
     height: auto;
 }
 
@@ -107,7 +107,7 @@ a:hover {
     }
 
     .image-row img {
-        width: 180px;
+        width: 150px;
         height: auto;
     }
 }
